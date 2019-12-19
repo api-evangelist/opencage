@@ -1,0 +1,162 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "version": "",
+        "title": "OpenCage Geocoder",
+        "description": "Worldwide forward and reverse geocoding",
+        "termsOfService": "https:\/\/geocoder.opencagedata.com\/terms"
+    },
+    "servers": [
+        "httpsapi.opencagedata.comv1\/"
+    ],
+    "paths": {
+        "\/v{version}\/{format}": {
+            "get": {
+                "summary": "Geocode Query",
+                "description": "Geocode a query",
+                "operationId": "VversionFormatGet",
+                "deprecated": 0,
+                "parameters": [
+                    {
+                        "name": "version",
+                        "in": "path",
+                        "description": "API version."
+                    },
+                    {
+                        "name": "format",
+                        "in": "path",
+                        "description": "format of the response. One of 'json', 'xml' or 'map'."
+                    },
+                    {
+                        "name": "q",
+                        "in": "query",
+                        "description": "string or lat,lng to be geocoded."
+                    },
+                    {
+                        "name": "key",
+                        "in": "query",
+                        "description": "an application key."
+                    },
+                    {
+                        "name": "abbrv",
+                        "in": "query",
+                        "description": "when true we attempt to abbreviate the formatted field in the response."
+                    },
+                    {
+                        "name": "add_request",
+                        "in": "query",
+                        "description": "if true the request is included in the response."
+                    },
+                    {
+                        "name": "bounds",
+                        "in": "query",
+                        "description": "four coordinate points forming the south-west and north-east corners of a bounding box (min long, min lat, max long, max lat)."
+                    },
+                    {
+                        "name": "countrycode",
+                        "in": "query",
+                        "description": "two letter code ISO 3166-1 Alpha 2 code to limit results to that country."
+                    },
+                    {
+                        "name": "jsonp",
+                        "in": "query",
+                        "description": "wraps the returned JSON with a function name."
+                    },
+                    {
+                        "name": "language",
+                        "in": "query",
+                        "description": "an IETF format language code (ex: 'es' or 'pt-BR')."
+                    },
+                    {
+                        "name": "limit",
+                        "in": "query",
+                        "description": "maximum number of results to return. Default is 10. Maximum is 100."
+                    },
+                    {
+                        "name": "min_confidence",
+                        "in": "query",
+                        "description": "integer from 1-10. Only results with at least this confidence are returned."
+                    },
+                    {
+                        "name": "no_annotations",
+                        "in": "query",
+                        "description": "when true annotations are not added to results."
+                    },
+                    {
+                        "name": "no_dedupe",
+                        "in": "query",
+                        "description": "when true results are not deduplicated."
+                    },
+                    {
+                        "name": "no_record",
+                        "in": "query",
+                        "description": "when true query content is not logged."
+                    },
+                    {
+                        "name": "pretty",
+                        "in": "query",
+                        "description": "when true results are pretty printed. Useful for debugging."
+                    }
+                ]
+            }
+        }
+    },
+    "components": {
+        "schemas": {
+            "LatLng": {
+                "type": "object",
+                "properties": {
+                    "lat": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "lng": {
+                        "description": "",
+                        "type": "get"
+                    }
+                }
+            },
+            "Response": {
+                "type": "object",
+                "properties": {
+                    "documentation": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "licenses": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "rate": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "results": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "status": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "stay_informed": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "thanks": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "timestamp": {
+                        "description": "",
+                        "type": "get"
+                    },
+                    "total_results": {
+                        "description": "",
+                        "type": "get"
+                    }
+                }
+            }
+        }
+    }
+}
