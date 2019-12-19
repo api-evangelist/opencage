@@ -1,0 +1,149 @@
+{
+    "id": "2226980b6899232973f863c94fcb23a8",
+    "name": "OpenCage Geocoder",
+    "description": null,
+    "auth": null,
+    "events": null,
+    "variables": [],
+    "order": [],
+    "folders_order": [],
+    "folders": [],
+    "requests": [
+        {
+            "id": "7f873b40186a4bf8442908e322eec4e3",
+            "name": "Geocode Query",
+            "url": "httpsapi.opencagedata.comv1\/\/v{version}\/{format}",
+            "description": "Geocode a query",
+            "data": [],
+            "dataMode": "raw",
+            "headerData": null,
+            "method": "get",
+            "pathVariableData": [],
+            "queryParams": [
+                {
+                    "key": "version",
+                    "description": "API version.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "format",
+                    "description": "format of the response. One of 'json', 'xml' or 'map'.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "q",
+                    "description": "string or lat,lng to be geocoded.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "key",
+                    "description": "an application key.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "abbrv",
+                    "description": "when true we attempt to abbreviate the formatted field in the response.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "add_request",
+                    "description": "if true the request is included in the response.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "bounds",
+                    "description": "four coordinate points forming the south-west and north-east corners of a bounding box (min long, min lat, max long, max lat).",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "countrycode",
+                    "description": "two letter code ISO 3166-1 Alpha 2 code to limit results to that country.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "jsonp",
+                    "description": "wraps the returned JSON with a function name.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "language",
+                    "description": "an IETF format language code (ex: 'es' or 'pt-BR').",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "limit",
+                    "description": "maximum number of results to return. Default is 10. Maximum is 100.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "min_confidence",
+                    "description": "integer from 1-10. Only results with at least this confidence are returned.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "no_annotations",
+                    "description": "when true annotations are not added to results.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "no_dedupe",
+                    "description": "when true results are not deduplicated.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "no_record",
+                    "description": "when true query content is not logged.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                },
+                {
+                    "key": "pretty",
+                    "description": "when true results are pretty printed. Useful for debugging.",
+                    "value": "",
+                    "equals": true,
+                    "enabled": true
+                }
+            ],
+            "auth": null,
+            "events": null,
+            "folder": null,
+            "protocolProfileBehavior": {
+                "disableBodyPruning": true
+            },
+            "responses": [],
+            "currentHelper": null,
+            "helperAttributes": null,
+            "collectionId": "2226980b6899232973f863c94fcb23a8",
+            "rawModeData": ""
+        }
+    ]
+}
