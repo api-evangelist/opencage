@@ -1,5 +1,5 @@
 {
-    "id": "2226980b6899232973f863c94fcb23a8",
+    "id": "128e1a50e7ba5a999bc67d2d92ad3a58",
     "name": "OpenCage Geocoder",
     "description": null,
     "auth": null,
@@ -10,7 +10,7 @@
     "folders": [],
     "requests": [
         {
-            "id": "7f873b40186a4bf8442908e322eec4e3",
+            "id": "3cd4bbeb013e7a921a11be2623a649fe",
             "name": "Geocode Query",
             "url": "httpsapi.opencagedata.comv1\/\/v{version}\/{format}",
             "description": "Geocode a query",
@@ -142,7 +142,7 @@
             "responses": [],
             "currentHelper": null,
             "helperAttributes": null,
-            "collectionId": "2226980b6899232973f863c94fcb23a8",
+            "collectionId": "128e1a50e7ba5a999bc67d2d92ad3a58",
             "rawModeData": ""
         }
     ]
