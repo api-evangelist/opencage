@@ -23,10 +23,16 @@ apis:
       - type: Documentation
         url: https://opencagedata.com
 common:
+  - type: VulnerabilityDisclosure
+    url: security/opencage-vulnerability-disclosure.yml
+  - type: DomainSecurity
+    url: security/opencage-domain-security.yml
   - type: Website
     url: https://opencagedata.com
   - type: PublicAPIsListing
     url: https://github.com/public-apis/public-apis
+  - url: https://blog.opencagedata.com/feed.xml
+    type: Blog
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
