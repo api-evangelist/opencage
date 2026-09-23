@@ -1,0 +1,30 @@
+# Front Door AI Index — opencage — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: opencage
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: opencagedata.com
+  final_host: opencagedata.com
+  ownership: own
+  owner: opencage
+  shares_host_with: null
+  inherited_from: null
+  verdict: scored
+  score: 13
+  host_score: 13
+  density: 8.01
+  words: 1622
+  tiers:
+    agentic: 1
+    core: 5
+    model: 7
+  ambiguous: 6
+  top_terms:
+    Claude: 7
+    agent: 5
+    AI: 4
+    LLMs: 1
+    intelligence: 1
+    llms.txt: 1
