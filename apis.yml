@@ -35,11 +35,11 @@ x-tier-reason: bulk-registered-from-public-apis
 tags:
   - Geocoding
   - Public APIs
+  - Geospatial
 apis:
   - name: OpenCage
     description: "Forward and reverse geocoding using open data"
     humanURL: https://opencagedata.com
-    baseURL: https://opencagedata.com
     tags:
       - Geocoding
     properties:
